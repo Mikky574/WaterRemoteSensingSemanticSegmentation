@@ -46,7 +46,7 @@ python train.py
 
 ## 与WatNet的效果对比
 
-![效果对比图]( .\figure\1.png "对比图")
+![效果对比图]( figure/1.png "对比图")
 
 a: Sentinel-2珠江口遥感影像假彩色波段; 
 
