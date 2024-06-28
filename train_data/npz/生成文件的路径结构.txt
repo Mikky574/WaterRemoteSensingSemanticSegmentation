@@ -1,0 +1,563 @@
+root:[C:\Users\mikky\Desktop\敲代码\train_data\npz]+
++--cloud
+|      +--item_0.npy
+|      +--item_1.npy
+|      +--item_10.npy
+|      +--item_11.npy
+|      +--item_12.npy
+|      +--item_2.npy
+|      +--item_3.npy
+|      +--item_4.npy
+|      +--item_5.npy
+|      +--item_6.npy
+|      +--item_7.npy
+|      +--item_8.npy
+|      +--item_9.npy
++--mean.npy
++--std.npy
++--test
+|      +--S2A_L2A_20190318_N0211_R061_6Bands_S1.npz
+|      +--S2A_L2A_20190318_N0211_R061_6Bands_S2.npz
+|      +--S2A_L2A_20190318_N0211_R061_6Bands_S3.npz
+|      +--S2A_L2A_20190426_N0211_R053_6Bands_S1.npz
+|      +--S2A_L2A_20190426_N0211_R053_6Bands_S2.npz
+|      +--S2A_L2A_20190426_N0211_R053_6Bands_S3.npz
+|      +--S2A_L2A_20190429_N0211_R096_6Bands_S1.npz
+|      +--S2A_L2A_20190429_N0211_R096_6Bands_S2.npz
+|      +--S2A_L2A_20190429_N0211_R096_6Bands_S3.npz
+|      +--S2A_L2A_20190508_N0212_R078_6Bands_S1.npz
+|      +--S2A_L2A_20190508_N0212_R078_6Bands_S2.npz
+|      +--S2A_L2A_20190508_N0212_R078_6Bands_S3.npz
+|      +--S2A_L2A_20190518_N0212_R073_6Bands_S1.npz
+|      +--S2A_L2A_20190518_N0212_R073_6Bands_S2.npz
+|      +--S2A_L2A_20190518_N0212_R073_6Bands_S3.npz
+|      +--S2A_L2A_20190724_N0213_R033_6Bands_S1.npz
+|      +--S2A_L2A_20190724_N0213_R033_6Bands_S2.npz
+|      +--S2A_L2A_20190724_N0213_R033_6Bands_S3.npz
+|      +--S2A_L2A_20190725_N0213_R054_6Bands_S1.npz
+|      +--S2A_L2A_20190725_N0213_R054_6Bands_S2.npz
+|      +--S2A_L2A_20190725_N0213_R054_6Bands_S3.npz
+|      +--S2A_L2A_20190725_N0213_R054_6Bands_S4.npz
+|      +--S2B_L2A_20190303_N0211_R065_6Bands_S1.npz
+|      +--S2B_L2A_20190303_N0211_R065_6Bands_S2.npz
+|      +--S2B_L2A_20190303_N0211_R065_6Bands_S3.npz
+|      +--S2B_L2A_20190620_N0212_R047_6Bands_S1.npz
+|      +--S2B_L2A_20190620_N0212_R047_6Bands_S2.npz
+|      +--S2B_L2A_20190620_N0212_R047_6Bands_S3.npz
+|      +--S2B_L2A_20191015_N0213_R007_6Bands_S1.npz
+|      +--S2B_L2A_20191015_N0213_R007_6Bands_S2.npz
+|      +--S2B_L2A_20191015_N0213_R007_6Bands_S3.npz
++--tra
+|      +--S2A_L2A_20190125_N0211_R034_6Bands_S1.npz
+|      +--S2A_L2A_20190125_N0211_R034_6Bands_S2.npz
+|      +--S2A_L2A_20190125_N0211_R034_6Bands_S3.npz
+|      +--S2A_L2A_20190206_N0211_R067_6Bands_S1.npz
+|      +--S2A_L2A_20190206_N0211_R067_6Bands_S2.npz
+|      +--S2A_L2A_20190206_N0211_R067_6Bands_S3.npz
+|      +--S2A_L2A_20190314_N0211_R008_6Bands_S1.npz
+|      +--S2A_L2A_20190314_N0211_R008_6Bands_S2.npz
+|      +--S2A_L2A_20190314_N0211_R008_6Bands_S3.npz
+|      +--S2A_L2A_20190716_N0213_R063_6Bands_S1.npz
+|      +--S2A_L2A_20190716_N0213_R063_6Bands_S2.npz
+|      +--S2A_L2A_20190716_N0213_R063_6Bands_S3.npz
+|      +--S2A_L2A_20190811_N0213_R013_6Bands_S1.npz
+|      +--S2A_L2A_20190811_N0213_R013_6Bands_S2.npz
+|      +--S2A_L2A_20190811_N0213_R013_6Bands_S3.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S1.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S2.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S3.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S4.npz
+|      +--S2A_L2A_20190830_N0213_R133_6Bands_S1.npz
+|      +--S2A_L2A_20190830_N0213_R133_6Bands_S2.npz
+|      +--S2A_L2A_20190830_N0213_R133_6Bands_S3.npz
+|      +--S2B_L2A_20181226_N0211_R102_6Bands_S1.npz
+|      +--S2B_L2A_20181226_N0211_R102_6Bands_S2.npz
+|      +--S2B_L2A_20181226_N0211_R102_6Bands_S3.npz
+|      +--S2B_L2A_20190225_N0211_R117_6Bands_S1.npz
+|      +--S2B_L2A_20190225_N0211_R117_6Bands_S2.npz
+|      +--S2B_L2A_20190225_N0211_R117_6Bands_S3.npz
+|      +--S2B_L2A_20190430_N0211_R035_6Bands_S1.npz
+|      +--S2B_L2A_20190430_N0211_R035_6Bands_S2.npz
+|      +--S2B_L2A_20190430_N0211_R035_6Bands_S3.npz
+|      +--S2B_L2A_20190506_N0212_R126_6Bands_S1.npz
+|      +--S2B_L2A_20190506_N0212_R126_6Bands_S2.npz
+|      +--S2B_L2A_20190506_N0212_R126_6Bands_S3.npz
+|      +--S2B_L2A_20190607_N0212_R012_6Bands_S1.npz
+|      +--S2B_L2A_20190607_N0212_R012_6Bands_S2.npz
+|      +--S2B_L2A_20190607_N0212_R012_6Bands_S3.npz
+|      +--S2B_L2A_20190620_N0212_R053_6Bands_S1.npz
+|      +--S2B_L2A_20190620_N0212_R053_6Bands_S2.npz
+|      +--S2B_L2A_20190620_N0212_R053_6Bands_S3.npz
+|      +--S2B_L2A_20190801_N0213_R084_6Bands_S1.npz
+|      +--S2B_L2A_20190801_N0213_R084_6Bands_S2.npz
+|      +--S2B_L2A_20190801_N0213_R084_6Bands_S3.npz
+|      +--S2B_L2A_20190807_N0213_R018_6Bands_S1.npz
+|      +--S2B_L2A_20190807_N0213_R018_6Bands_S2.npz
+|      +--S2B_L2A_20190807_N0213_R018_6Bands_S3.npz
+|      +--S2B_L2A_20190811_N0213_R079_6Bands_S1.npz
+|      +--S2B_L2A_20190811_N0213_R079_6Bands_S2.npz
+|      +--S2B_L2A_20190811_N0213_R079_6Bands_S3.npz
+|      +--S2B_L2A_20190818_N0213_R035_6Bands_S1.npz
+|      +--S2B_L2A_20190818_N0213_R035_6Bands_S2.npz
+|      +--S2B_L2A_20190818_N0213_R035_6Bands_S3.npz
+|      +--S2B_L2A_20190831_N0213_R082_6Bands_S1.npz
+|      +--S2B_L2A_20190831_N0213_R082_6Bands_S2.npz
+|      +--S2B_L2A_20190831_N0213_R082_6Bands_S3.npz
+|      +--S2B_L2A_20190904_N0213_R132_6Bands_S1.npz
+|      +--S2B_L2A_20190904_N0213_R132_6Bands_S2.npz
+|      +--S2B_L2A_20190904_N0213_R132_6Bands_S3.npz
+|      +--S2B_L2A_20190912_N0213_R102_6Bands_S1.npz
+|      +--S2B_L2A_20190912_N0213_R102_6Bands_S2.npz
+|      +--S2B_L2A_20190912_N0213_R102_6Bands_S3.npz
+|      +--S2B_L2A_20191023_N0213_R121_6Bands_S1.npz
+|      +--S2B_L2A_20191023_N0213_R121_6Bands_S2.npz
+|      +--S2B_L2A_20191023_N0213_R121_6Bands_S3.npz
++--train_pieces
+|      +--folds.json
+|      +--S2A_L2A_20190125_N0211_R034_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_356.npz
+|      |      +--slice_252_0.npz
+|      |      +--slice_252_356.npz
+|      +--S2A_L2A_20190125_N0211_R034_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_386.npz
+|      |      +--slice_292_0.npz
+|      |      +--slice_292_386.npz
+|      +--S2A_L2A_20190125_N0211_R034_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_309.npz
+|      |      +--slice_183_0.npz
+|      |      +--slice_183_309.npz
+|      +--S2A_L2A_20190206_N0211_R067_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_464.npz
+|      |      +--slice_431_0.npz
+|      |      +--slice_431_464.npz
+|      +--S2A_L2A_20190206_N0211_R067_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_578.npz
+|      |      +--slice_446_0.npz
+|      |      +--slice_446_512.npz
+|      |      +--slice_446_578.npz
+|      +--S2A_L2A_20190206_N0211_R067_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_672.npz
+|      |      +--slice_510_0.npz
+|      |      +--slice_510_512.npz
+|      |      +--slice_510_672.npz
+|      +--S2A_L2A_20190314_N0211_R008_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_729.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_729.npz
+|      |      +--slice_695_0.npz
+|      |      +--slice_695_512.npz
+|      |      +--slice_695_729.npz
+|      +--S2A_L2A_20190314_N0211_R008_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_939.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_939.npz
+|      |      +--slice_795_0.npz
+|      |      +--slice_795_512.npz
+|      |      +--slice_795_939.npz
+|      +--S2A_L2A_20190314_N0211_R008_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_801.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_801.npz
+|      |      +--slice_762_0.npz
+|      |      +--slice_762_512.npz
+|      |      +--slice_762_801.npz
+|      +--S2A_L2A_20190716_N0213_R063_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_415.npz
+|      |      +--slice_295_0.npz
+|      |      +--slice_295_415.npz
+|      +--S2A_L2A_20190716_N0213_R063_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_475.npz
+|      |      +--slice_398_0.npz
+|      |      +--slice_398_475.npz
+|      +--S2A_L2A_20190716_N0213_R063_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_302.npz
+|      |      +--slice_280_0.npz
+|      |      +--slice_280_302.npz
+|      +--S2A_L2A_20190811_N0213_R013_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_652.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_652.npz
+|      |      +--slice_586_0.npz
+|      |      +--slice_586_512.npz
+|      |      +--slice_586_652.npz
+|      +--S2A_L2A_20190811_N0213_R013_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_898.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_898.npz
+|      |      +--slice_816_0.npz
+|      |      +--slice_816_512.npz
+|      |      +--slice_816_898.npz
+|      +--S2A_L2A_20190811_N0213_R013_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_930.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_930.npz
+|      |      +--slice_901_0.npz
+|      |      +--slice_901_512.npz
+|      |      +--slice_901_930.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_762.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_762.npz
+|      |      +--slice_666_0.npz
+|      |      +--slice_666_512.npz
+|      |      +--slice_666_762.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_113.npz
+|      |      +--slice_33_0.npz
+|      |      +--slice_33_113.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_172.npz
+|      |      +--slice_122_0.npz
+|      |      +--slice_122_172.npz
+|      +--S2A_L2A_20190817_N0213_R089_6Bands_S4
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_189.npz
+|      |      +--slice_122_0.npz
+|      |      +--slice_122_189.npz
+|      +--S2A_L2A_20190830_N0213_R133_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_377.npz
+|      |      +--slice_370_0.npz
+|      |      +--slice_370_377.npz
+|      +--S2A_L2A_20190830_N0213_R133_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_682.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_682.npz
+|      |      +--slice_550_0.npz
+|      |      +--slice_550_512.npz
+|      |      +--slice_550_682.npz
+|      +--S2A_L2A_20190830_N0213_R133_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_526.npz
+|      |      +--slice_471_0.npz
+|      |      +--slice_471_512.npz
+|      |      +--slice_471_526.npz
+|      +--S2B_L2A_20181226_N0211_R102_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_717.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_717.npz
+|      |      +--slice_685_0.npz
+|      |      +--slice_685_512.npz
+|      |      +--slice_685_717.npz
+|      +--S2B_L2A_20181226_N0211_R102_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_736.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_736.npz
+|      |      +--slice_592_0.npz
+|      |      +--slice_592_512.npz
+|      |      +--slice_592_736.npz
+|      +--S2B_L2A_20181226_N0211_R102_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_591.npz
+|      |      +--slice_481_0.npz
+|      |      +--slice_481_512.npz
+|      |      +--slice_481_591.npz
+|      +--S2B_L2A_20190225_N0211_R117_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_328.npz
+|      |      +--slice_259_0.npz
+|      |      +--slice_259_328.npz
+|      +--S2B_L2A_20190225_N0211_R117_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_401.npz
+|      |      +--slice_271_0.npz
+|      |      +--slice_271_401.npz
+|      +--S2B_L2A_20190225_N0211_R117_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_362.npz
+|      |      +--slice_228_0.npz
+|      |      +--slice_228_362.npz
+|      +--S2B_L2A_20190430_N0211_R035_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_696.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_696.npz
+|      |      +--slice_651_0.npz
+|      |      +--slice_651_512.npz
+|      |      +--slice_651_696.npz
+|      +--S2B_L2A_20190430_N0211_R035_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_591.npz
+|      |      +--slice_511_0.npz
+|      |      +--slice_511_512.npz
+|      |      +--slice_511_591.npz
+|      +--S2B_L2A_20190430_N0211_R035_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_605.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_605.npz
+|      |      +--slice_529_0.npz
+|      |      +--slice_529_512.npz
+|      |      +--slice_529_605.npz
+|      +--S2B_L2A_20190506_N0212_R126_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_307.npz
+|      |      +--slice_262_0.npz
+|      |      +--slice_262_307.npz
+|      +--S2B_L2A_20190506_N0212_R126_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_488.npz
+|      |      +--slice_477_0.npz
+|      |      +--slice_477_488.npz
+|      +--S2B_L2A_20190506_N0212_R126_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_292.npz
+|      |      +--slice_307_0.npz
+|      |      +--slice_307_292.npz
+|      +--S2B_L2A_20190607_N0212_R012_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_504.npz
+|      |      +--slice_431_0.npz
+|      |      +--slice_431_504.npz
+|      +--S2B_L2A_20190607_N0212_R012_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_507.npz
+|      |      +--slice_421_0.npz
+|      |      +--slice_421_507.npz
+|      +--S2B_L2A_20190607_N0212_R012_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_356.npz
+|      |      +--slice_335_0.npz
+|      |      +--slice_335_356.npz
+|      +--S2B_L2A_20190620_N0212_R053_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_570.npz
+|      |      +--slice_493_0.npz
+|      |      +--slice_493_512.npz
+|      |      +--slice_493_570.npz
+|      +--S2B_L2A_20190620_N0212_R053_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_465.npz
+|      |      +--slice_454_0.npz
+|      |      +--slice_454_465.npz
+|      +--S2B_L2A_20190620_N0212_R053_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_591.npz
+|      |      +--slice_492_0.npz
+|      |      +--slice_492_512.npz
+|      |      +--slice_492_591.npz
+|      +--S2B_L2A_20190801_N0213_R084_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_577.npz
+|      |      +--slice_511_0.npz
+|      |      +--slice_511_512.npz
+|      |      +--slice_511_577.npz
+|      +--S2B_L2A_20190801_N0213_R084_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_401.npz
+|      |      +--slice_347_0.npz
+|      |      +--slice_347_401.npz
+|      +--S2B_L2A_20190801_N0213_R084_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_447_0.npz
+|      |      +--slice_447_512.npz
+|      +--S2B_L2A_20190807_N0213_R018_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_263.npz
+|      |      +--slice_222_0.npz
+|      |      +--slice_222_263.npz
+|      +--S2B_L2A_20190807_N0213_R018_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_161.npz
+|      |      +--slice_71_0.npz
+|      |      +--slice_71_161.npz
+|      +--S2B_L2A_20190807_N0213_R018_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_288.npz
+|      |      +--slice_234_0.npz
+|      |      +--slice_234_288.npz
+|      +--S2B_L2A_20190811_N0213_R079_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_523.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_523.npz
+|      |      +--slice_623_0.npz
+|      |      +--slice_623_512.npz
+|      |      +--slice_623_523.npz
+|      +--S2B_L2A_20190811_N0213_R079_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_524.npz
+|      |      +--slice_455_0.npz
+|      |      +--slice_455_512.npz
+|      |      +--slice_455_524.npz
+|      +--S2B_L2A_20190811_N0213_R079_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_520.npz
+|      |      +--slice_456_0.npz
+|      |      +--slice_456_512.npz
+|      |      +--slice_456_520.npz
+|      +--S2B_L2A_20190818_N0213_R035_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_181.npz
+|      |      +--slice_163_0.npz
+|      |      +--slice_163_181.npz
+|      +--S2B_L2A_20190818_N0213_R035_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_244.npz
+|      |      +--slice_238_0.npz
+|      |      +--slice_238_244.npz
+|      +--S2B_L2A_20190818_N0213_R035_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_444.npz
+|      |      +--slice_434_0.npz
+|      |      +--slice_434_444.npz
+|      +--S2B_L2A_20190831_N0213_R082_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_495.npz
+|      |      +--slice_435_0.npz
+|      |      +--slice_435_495.npz
+|      +--S2B_L2A_20190831_N0213_R082_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_609.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_609.npz
+|      |      +--slice_536_0.npz
+|      |      +--slice_536_512.npz
+|      |      +--slice_536_609.npz
+|      +--S2B_L2A_20190831_N0213_R082_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_454.npz
+|      |      +--slice_339_0.npz
+|      |      +--slice_339_454.npz
+|      +--S2B_L2A_20190904_N0213_R132_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_666.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_666.npz
+|      |      +--slice_620_0.npz
+|      |      +--slice_620_512.npz
+|      |      +--slice_620_666.npz
+|      +--S2B_L2A_20190904_N0213_R132_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_1015.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_1015.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_920_0.npz
+|      |      +--slice_920_1015.npz
+|      |      +--slice_920_512.npz
+|      +--S2B_L2A_20190904_N0213_R132_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_922.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_922.npz
+|      |      +--slice_831_0.npz
+|      |      +--slice_831_512.npz
+|      |      +--slice_831_922.npz
+|      +--S2B_L2A_20190912_N0213_R102_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_793.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_793.npz
+|      |      +--slice_740_0.npz
+|      |      +--slice_740_512.npz
+|      |      +--slice_740_793.npz
+|      +--S2B_L2A_20190912_N0213_R102_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_686.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_686.npz
+|      |      +--slice_600_0.npz
+|      |      +--slice_600_512.npz
+|      |      +--slice_600_686.npz
+|      +--S2B_L2A_20190912_N0213_R102_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_530.npz
+|      |      +--slice_431_0.npz
+|      |      +--slice_431_512.npz
+|      |      +--slice_431_530.npz
+|      +--S2B_L2A_20191023_N0213_R121_6Bands_S1
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_822.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_822.npz
+|      |      +--slice_757_0.npz
+|      |      +--slice_757_512.npz
+|      |      +--slice_757_822.npz
+|      +--S2B_L2A_20191023_N0213_R121_6Bands_S2
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_512.npz
+|      |      +--slice_0_544.npz
+|      |      +--slice_512_0.npz
+|      |      +--slice_512_512.npz
+|      |      +--slice_512_544.npz
+|      |      +--slice_544_0.npz
+|      |      +--slice_544_512.npz
+|      |      +--slice_544_544.npz
+|      +--S2B_L2A_20191023_N0213_R121_6Bands_S3
+|      |      +--slice_0_0.npz
+|      |      +--slice_0_493.npz
+|      |      +--slice_406_0.npz
+|      |      +--slice_406_493.npz
