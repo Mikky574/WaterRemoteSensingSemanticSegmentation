@@ -11,14 +11,14 @@
 克隆本仓库，依据requirements.txt安装相关依赖：
 
 ```bash
-git clone https://github.com/Mikky574/MUPP.git
-cd MUPP
+git clone https://github.com/Mikky574/WaterRemoteSensingSemanticSegmentation.git
+cd WaterRemoteSensingSemanticSegmentation
 pip install -r requirements.txt
 ```
 
 ## 使用方式
 
-首先，从本项目的packages中，下载模型权重文件best.pth，放到克隆好的MUPP文件夹下。随后修改interface.py脚本中的路径信息，指定模型权重.pth的路径。指定原始tif数据所在的文件夹，以及输出结果保存的文件夹路径。模型会自动遍历文件夹下的所有.tif后缀的文件，进行水体推理。运行代码如下：
+首先，从本项目的packages中，下载模型权重文件best.pth，放到克隆好的WaterRemoteSensingSemanticSegmentation文件夹下。随后修改interface.py脚本中的路径信息，指定模型权重.pth的路径。指定原始tif数据所在的文件夹，以及输出结果保存的文件夹路径。模型会自动遍历文件夹下的所有.tif后缀的文件，进行水体推理。运行代码如下：
 
 ```bash
 python interface.py
@@ -54,6 +54,6 @@ b: NDWI水体系数归一化灰度图;
 
 c: WatNet模型推理水陆二值化掩码图; 
 
-d: 我们团队的MUPP推理水陆二值化掩码图。
+d: 我们团队的水体分割模型推理水陆二值化掩码图。
 
-单在水体识别上，我们的工作并没有超过原有的WatNet模型工作。WatNet模型突出地表水的识别，我们的MUPP突出自然水路信息的识别，抑制了部分水田、灌溉的水体区域。这张遥感图，我们也放在了packages项目包内。
+单在水体识别上，我们的工作并没有超过原有的WatNet模型工作。WatNet模型突出地表水的识别，我们的水体分割模型突出自然水路信息的识别，抑制了部分水田、灌溉的水体区域。这张遥感图，我们也放在了packages项目包内。
